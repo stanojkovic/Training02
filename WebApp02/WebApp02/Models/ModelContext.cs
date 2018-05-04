@@ -8,7 +8,7 @@ namespace WebApp02.Models
 {
     public class ModelContext : DbContext
     {
-        public ModelContext() : base("ModelContext")        //ovaj string je naziv DataConnection
+        public ModelContext() : base("DataBase")        //ovaj string je naziv baze
         {
 
         }
