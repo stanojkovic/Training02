@@ -1,0 +1,3 @@
+﻿Enable-Migrations -ContextTypeName ModelContext -MigrationsDirectory Migrations
+add-migration -ConfigurationTypeName WebApp02.Migrations.Configuration "InitialCreate"
+update-database -ConfigurationTypeName WebApp02.Migrations.Configuration
